@@ -1,0 +1,14 @@
+{
+    "name": "New Home",
+    "description": "A new home for Chrome",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "icons": { 
+        "16": "favv/favicon-16x16.png",
+        "48": "favv/favicon-32x32.png",
+       "128": "favv/android-chrome-192x192.png" },
+    "chrome_url_overrides" : {
+      "newtab": "index.html"
+    }
+  
+  }
